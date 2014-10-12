@@ -5,6 +5,11 @@ Docker container to automatically build and output the bitcoind binary.
 
 Currently this container builds the binary using Debian.
 
+If you found this Docker container useful, please consider donating:
+```
+17cufN5rCpbjRAns3knJD6qu4wdZybBFaJ
+```
+
 Requirements
 ============
 * Linux system with Docker installed and running (preferably Debian-based)
