@@ -15,7 +15,6 @@ RUN mkdir /bitcoin-out && \
   apt-get -y install libboost-all-dev && \
   apt-get -y install libdb5.1++-dev && \
   apt-get -y install libevent-dev && \
-  apt-get -y install libssl-dev
   apt-get -y install libminiupnpc-dev
 
 VOLUME ["/bitcoin-out"]
