@@ -10,6 +10,7 @@ ADD build.sh /tmp/build.sh
 # Get
 RUN mkdir /bitcoin-out && \
   chmod +x /tmp/build.sh && \
+  apt-get update && \
   add-apt-repository -y ppa:bitcoin/bitcoin && \
   apt-get update && \
   apt-get -y install libdb4.8-dev libdb4.8++-dev && \
