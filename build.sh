@@ -3,6 +3,6 @@
 ( git clone https://github.com/bitcoin/bitcoin.git /tmp/bitcoin && \
   cd /tmp/bitcoin && \
   ./autogen.sh && \
-  ./configure && \
+  ./configure --with-incompatible-bdb && \
   make &&
   mv /tmp/bitcoin/src/bitcoind /bitcoin-out ) || (echo "Build failed!" && exit 1)
