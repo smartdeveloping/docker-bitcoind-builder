@@ -11,10 +11,10 @@ ADD build.sh /tmp/build.sh
 RUN mkdir /bitcoin-out && \
   chmod +x /tmp/build.sh && \
   apt-get update && \
+  apt-get -y install build-essential libtool autotools-dev autoconf pkg-config libssl-dev bsdmainutils git && \
   add-apt-repository -y ppa:bitcoin/bitcoin && \
   apt-get update && \
   apt-get -y install libdb4.8-dev libdb4.8++-dev && \
-  apt-get -y install build-essential libtool autotools-dev autoconf pkg-config libssl-dev bsdmainutils git && \
   apt-get -y install libboost-all-dev && \
   apt-get -y install libevent-dev && \
   apt-get -y install libminiupnpc-dev
