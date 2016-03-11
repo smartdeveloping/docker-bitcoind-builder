@@ -1,11 +1,11 @@
 docker-bitcoind-builder
 =======================
 
-Docker container to automatically build and output the bitcoind binary.
+Docker container to automatically build and output the bitcoin binaries.
 
-Currently this container builds the binary using Debian.
+Currently this container builds the binary using Ubuntu Trusty.
 
-If you found this Docker container useful, please consider donating:
+If you found this Docker container useful, please consider donating to original author:
 ```
 17cufN5rCpbjRAns3knJD6qu4wdZybBFaJ
 ```
