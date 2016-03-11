@@ -5,4 +5,4 @@
   ./autogen.sh && \
   ./configure --disable-shared && \
   make &&
-  mv /tmp/bitcoin/src/bitcoind /bitcoin-out ) || (echo "Build failed!" && exit 1)
+  mv /tmp/bitcoin /bitcoin-out ) || (echo "Build failed!" && exit 1)
