@@ -1,8 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Sean Payne (seantpayne@gmail.com)
-
-# Add oldstable repository for libdb4.8
-#ADD oldstable.list /etc/apt/sources.list.d/oldstable.list
+MAINTAINER Andrew Boss (info@smartdeveloping.com)
 
 # Add build script
 ADD build.sh /tmp/build.sh
