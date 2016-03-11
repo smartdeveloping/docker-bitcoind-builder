@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM ubuntu:trusty
 MAINTAINER Sean Payne (seantpayne@gmail.com)
 
 # Add oldstable repository for libdb4.8
